@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Pretendard-Regular";
+}
+
+nav {
+  /* 레이아웃에 대한 스타일(5~10줄) */
+  display: flex;
+  align-items: center;
+
+  padding-left: 120px;
+  padding-right: 120px;
+
+  gap: 40px;
+  height: 100px;
+}
+
+header {
+  position: relative;
+  display: flex;
+  width: 1366px;
+  /* height: 662px; */
+  padding: 100px 120px;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  /* gap: 10px; */
+}
+
+.left {
+  display: flex;
+  width: 556.001px;
+  /* height: 464px; */
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.badge {
+  padding: 12px 24px;
+  border-radius: 10px;
+  background: #e6eeff;
+  width: fit-content;
+
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+
+  margin-bottom: 40px;
+}
+
+header h1 {
+  color: #333;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -1.28px;
+  margin: 0;
+}
+
+header h1 span {
+  background: linear-gradient(
+    99deg,
+    #001f8f 3.58%,
+    rgba(36, 255, 203, 0.5) 90.34%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headerLinkContainer {
+  display: flex;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.headerLinkL {
+  background-color: black;
+  border: 4px solid black;
+  text-decoration: none;
+  color: white;
+  border-radius: 16px;
+  width: 270px;
+  padding: 24px 40px;
+
+  display: block;
+  text-align: center;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  color: #e6eeff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+.headerLinkR {
+  background-color: white;
+  border-radius: 16px;
+  border: 4px solid #403930;
+  padding: 10px;
+  /* display: block; */
+  text-decoration: none;
+  color: black;
+
+  display: flex;
+  width: 269px;
+  padding: 24px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: #403930;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+.right {
+  position: absolute;
+  right: 120px;
+}
+
+img {
+  width: 355.624px;
+  height: 350px;
+}
