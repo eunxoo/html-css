@@ -11,36 +11,25 @@ body {
 }
 
 nav {
-  /* 레이아웃에 대한 스타일(5~10줄) */
   display: flex;
   align-items: center;
 
-  padding-left: 120px;
-  padding-right: 120px;
-
+  padding: 0 120px;
   gap: 40px;
   height: 100px;
 }
 
 header {
-  position: relative;
   display: flex;
-  width: 1366px;
-  /* height: 662px; */
-  padding: 100px 120px;
   flex-direction: row;
-  /* justify-content: center; */
+  justify-content: space-between;
   align-items: center;
-  /* gap: 10px; */
+  padding: 100px 120px;
 }
 
 .left {
   display: flex;
-  width: 556.001px;
-  /* height: 464px; */
   flex-direction: column;
-  align-items: flex-start;
-  flex-shrink: 0;
 }
 
 .badge {
@@ -48,14 +37,13 @@ header {
   border-radius: 10px;
   background: #e6eeff;
   width: fit-content;
+  margin-bottom: 40px;
 
   color: #000;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 36px */
-
-  margin-bottom: 40px;
+  line-height: 150%;
 }
 
 header h1 {
@@ -65,7 +53,7 @@ header h1 {
   font-weight: 600;
   line-height: 125%;
   letter-spacing: -1.28px;
-  margin: 0;
+  margin: 0; /* user agent stylesheet 조정 */
 }
 
 header h1 span {
@@ -88,53 +76,40 @@ header h1 span {
 .headerLinkL {
   background-color: black;
   border: 4px solid black;
-  text-decoration: none;
-  color: white;
   border-radius: 16px;
-  width: 270px;
   padding: 24px 40px;
+  width: 270px;
 
   display: block;
   text-align: center;
-
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 
   color: #e6eeff;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 36px */
+  text-decoration: none;
 }
 
 .headerLinkR {
   background-color: white;
-  border-radius: 16px;
   border: 4px solid #403930;
-  padding: 10px;
-  /* display: block; */
-  text-decoration: none;
-  color: black;
-
-  display: flex;
-  width: 269px;
+  border-radius: 16px;
   padding: 24px 40px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  width: 269px;
+
+  display: block;
+  text-align: center;
 
   color: #403930;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 36px */
+  text-decoration: none;
 }
 
 .right {
-  position: absolute;
-  right: 120px;
 }
 
 img {
