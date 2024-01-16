@@ -1,0 +1,10 @@
+nav {
+  background-color: aliceblue;
+}
+
+.navItem {
+  color: blue;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Pretendard";
+}

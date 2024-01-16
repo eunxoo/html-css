@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML-CSS</title>
+  </head>
+  <body>
+    <header>
+      <h1>배고프다</h1>
+    </header>
+    <p>본문</p>
+    <blockquote cite="https://naver.com">인용구</blockquote>
+    <hr />
+    <br />
+    <i> &quot;날리기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+    <em> 강조하기</em>
+    <b> 굵은</b>
+    <strong> 중요한&quot;</strong>
+    <br />
+    <a href="https://github.com/eunxoo/html-css">깃허브</a>
+    <button onclick="alert('배고프다')">🍰</button>
+    <br />
+    <label for="chk">체크</label>
+    <input type="checkbox" id="chk" name="chk" />
+    <input type="number" min="0" max="100" required />
+    <textarea rows="4" cols="50" placeholder="메시지를 입력하세요"></textarea>
+    <br />
+    <select>
+      <option value="1">항목 1</option>
+      <option value="2">항목 2</option>
+      <option value="3">항목 3</option>
+    </select>
+    <br />
+    <fieldset>
+      <legend>개인 정보</legend>
+      <label for="name">이름:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">이메일:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+      /><br /><br />
+    </fieldset>
+    <br />
+    <iframe src="https://example.com/" width="600" height="400"></iframe>
+    <br />
+    <section>
+      <img
+        src="https://images.unsplash.com/photo-1615531880567-f119a83e65bb?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="고양이"
+      />
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            https://images.unsplash.com/photo-1615531880567-f119a83e65bb?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+          "
+        />
+        <source
+          media="(min-width: 320px)"
+          srcset="
+            https://images.unsplash.com/photo-1615531880567-f119a83e65bb?q=80&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+          "
+        />
+        <img
+          src="https://images.unsplash.com/photo-1615531880567-f119a83e65bb?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="반응형 고양이"
+        />
+      </picture>
+    </section>
+    <br />
+    <ul>
+      <li style="color: red">hi</li>
+      <li>hello</li>
+    </ul>
+    <ol>
+      <li>one</li>
+      <li>two</li>
+    </ol>
+    <dl>
+      <dt>a</dt>
+      <dd>ddd</dd>
+    </dl>
+    <br />
+    <canvas
+      id="myCanvas"
+      width="200"
+      height="100"
+      style="border: 1px solid #000"
+    ></canvas>
+    <script>
+      const canvas = document.getElementById("myCanvas");
+      const ctx = canvas.getContext("2d");
+      ctx.fillStyle = "rgb(200, 0, 0)";
+      ctx.fillRect(10, 10, 150, 80);
+    </script>
+    <footer>
+      <pre>&lt;&copy;은수&gt;</pre>
+    </footer>
+  </body>
+</html>
