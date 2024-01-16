@@ -119,9 +119,10 @@ img {
 
 .grad {
   display: flex;
-  height: 350px;
-  padding: 100px 120px;
   flex-direction: column;
+  height: 350px;
+  min-width: 700px;
+  padding: 100px 120px;
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
@@ -139,7 +140,7 @@ img {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 125%; /* 50px */
+  line-height: 125%;
   letter-spacing: -0.8px;
 }
 
@@ -193,4 +194,62 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.stackDiv {
+  display: flex;
+  padding: 100px 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.stack {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 65% */
+  letter-spacing: -0.8px;
+  margin-bottom: 24px;
+}
+
+.stackAbout {
+  color: #333;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  margin-bottom: 80px;
+}
+
+.imgDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.imgT {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 40px;
+}
+
+.imgB {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.st {
+  width: 120px;
+  height: 120px;
 }
