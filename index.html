@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-74C801DTRC"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-74C801DTRC");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" media="(max-width: 390px)" href="./responsive.css" />
   </head>
 
   <body>
@@ -41,9 +56,16 @@
               class="headerLinkL"
               href="https://github.com/eunxoo"
               target="_blank"
+              onClick="onClickButton('github')"
               >Github Link</a
             >
-            <a class="headerLinkR" href="#" target="_blank">Resume Link</a>
+            <a
+              class="headerLinkR"
+              href="#"
+              target="_blank"
+              onClick="onClickButton('resume')"
+              >Resume Link</a
+            >
           </div>
         </div>
         <div class="right">
@@ -68,12 +90,14 @@
         끊임없는 도전을 통해 성장하는 개발자로서 기여하고 싶습니다.
       </div>
     </div>
-    <div class="stackDiv">
-      <div class="stackWrapper">
-        <h2 class="stack">기술 스택</h2>
-        <div class="stackAbout">
-          지금까지 활용해 본 기술들입니다. <br />
-          넓고 깊은 기술 스택을 얻기 위해 노력하고 있습니다.
+    <div class="stackContainer">
+      <div class="stackDiv">
+        <div class="stackWrapper">
+          <h2 class="stack">기술 스택</h2>
+          <div class="stackAbout">
+            지금까지 활용해 본 기술들입니다. <br />
+            넓고 깊은 기술 스택을 얻기 위해 노력하고 있습니다.
+          </div>
         </div>
       </div>
       <div class="imgDiv">
@@ -83,8 +107,7 @@
           <img class="st" src="js.svg" alt="js" />
           <img class="st" src="react.svg" alt="react" />
           <img class="st" src="bootstrap.svg" alt="bootstrap" />
-        </div>
-        <div class="imgB">
+
           <img class="st" src="vscode.svg" alt="vscode" />
           <img class="st" src="git.svg" alt="git" />
           <img class="st" src="github.svg" alt="github" />
@@ -96,5 +119,107 @@
       Me
       <a href="mailto:dmstn7989@gmail.com">💌</a>
     </div>
+    <div class="projectDiv">
+      <span class="projectTitle">내 프로젝트</span>
+      <div class="project">
+        <div class="projectTextWrap">
+          <span>숙멋 리크루팅 페이지</span>
+          <p>
+            React, JavaScript, Spring <br /><br />
+            숙명여자대학교 멋쟁이사자처럼 <br />공식 홈페이지 & 관리자 페이지
+            <br />
+            숙멋과 그동안의 프로젝트를 소개하고 지원 모집을 받습니다.
+          </p>
+          <div class="aWrap">
+            <a href="https://github.com/Likelion-at-SMWU-WebFounder"
+              >깃허브 링크</a
+            >
+          </div>
+        </div>
+        <div class="projectImg">
+          <img src="sook.svg" alt="숙멋" />
+        </div>
+      </div>
+      <div class="project">
+        <div class="projectTextWrap">
+          <span>날씨별 옷차림 제안 웹 서비스</span>
+          <p>
+            React, JavaScript, NodeJs, Python <br /><br />
+            데이터 분석 기반 날씨별 옷차림을 추천해주는 서비스
+          </p>
+          <div class="aWrap">
+            <a href="https://github.com/eunxoo/WowWeather">깃허브 링크</a>
+          </div>
+        </div>
+        <div class="projectImg">
+          <img src="weather.svg" alt="날씨" />
+        </div>
+      </div>
+      <div class="project">
+        <div class="projectTextWrap">
+          <span>여기있대</span>
+          <p>
+            React, JavaScript, Firebase <br /><br />
+            숙명여대 학생회 주관 '비상용 생리대' 복지사업을 위한, 무상 생리대
+            위치 및 재고 알림 서비스
+          </p>
+          <div class="aWrap">
+            <a href="https://github.com/eunxoo/Team10_naYangna">깃허브 링크</a>
+          </div>
+        </div>
+        <div class="projectImg">
+          <img src="yeogi.svg" alt="여기있대" />
+        </div>
+      </div>
+      <div class="project">
+        <div class="projectTextWrap">
+          <span>그랜드슬램</span>
+          <p>
+            React, JavaScript <br /><br />
+            KBO 리그 10개 구단의 중독성 있는 응원가들을 한 곳에서 만날 수 있는
+            국내 최초 응원가🎶 아카이빙 웹
+          </p>
+          <div class="aWrap">
+            <a href="https://github.com/eunxoo/GrandSlam">깃허브 링크</a>
+          </div>
+        </div>
+        <div class="projectImg">
+          <img src="grandslam.svg" alt="그랜드슬램" />
+        </div>
+      </div>
+      <div class="project">
+        <div class="projectTextWrap">
+          <span>마이 힐링</span>
+          <p>
+            React, JavaScript, Django <br /><br />
+            나만의 힐링 플레이스 공유 서비스<br />힐링 플레이스를 찾는 사람들을
+            위해 키워드와 가이드를 제공하여 장소에 대한 후기 및 추억을 남길 수
+            있는 서비스
+          </p>
+          <div class="aWrap">
+            <a href="https://github.com/eunxoo/MYHEALING-Client">깃허브 링크</a>
+          </div>
+        </div>
+        <div class="projectImg">
+          <img src="myhealing.svg" alt="마이힐링" />
+        </div>
+      </div>
+    </div>
+    <script>
+      function onClickButton(type) {
+        if (type === "github") {
+          //gtag("이벤트명", "액션명", {액션에 대한 상세 내용})
+          gtag("event", "깃허브_버튼_클릭", {
+            event_category: "깃허브_버튼_클릭",
+            event_label: "깃허브_버튼_클릭",
+          });
+        } else if (type === "resume") {
+          gtag("event", "이력서_버튼_클릭", {
+            event_category: "이력서_버튼_클릭",
+            event_label: "이력서_버튼_클릭",
+          });
+        }
+      }
+    </script>
   </body>
 </html>

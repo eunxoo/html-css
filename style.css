@@ -237,6 +237,13 @@ a {
   text-decoration: none;
 }
 
+.stackContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .stackDiv {
   display: flex;
   padding: 100px 120px;
@@ -270,7 +277,9 @@ a {
 .imgDiv {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 40px;
+  width: 70%;
 }
 
 .imgT {
@@ -280,17 +289,87 @@ a {
   align-items: center;
   gap: 80px;
   margin-bottom: 40px;
-}
-
-.imgB {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 80px;
+  flex-wrap: wrap;
 }
 
 .st {
   width: 120px;
   height: 120px;
+}
+
+.projectDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 120px 120px 120px;
+  justify-content: center;
+  /* align-items: center; */
+
+  background: rgba(244, 244, 244, 0.5);
+}
+
+.projectTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+
+  color: #403930;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 50px */
+  letter-spacing: -0.8px;
+}
+
+.project {
+  display: flex;
+  padding: 0 140px;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+  justify-content: space-between;
+  height: 350px;
+  min-width: 1000px;
+  border-radius: 24px;
+  background: #e6eeff;
+
+  margin-top: 32px;
+}
+
+.projectTextWrap {
+  display: flex;
+  min-width: 437px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.projectTextWrap span {
+  color: #403930;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+.projectTextWrap p {
+  color: #403930;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+
+.projectImg {
+  display: flex;
+}
+
+.projectTextWrap div a {
+  color: #00446a;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  text-decoration-line: underline;
 }
