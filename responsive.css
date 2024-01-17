@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+}
+
+.contactContainer {
+  display: none;
+}
+
+nav {
+  height: 60px;
+  padding: 0px 24px;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.navItem {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 18px */
+}
+
+header {
+  padding: 60px 24px;
+  gap: 20px;
+}
+
+.badge {
+  padding: 8px 24px;
+  gap: 10px;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+
+header h1 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: -0.64px;
+}
+
+.headerLinkContainer {
+  gap: 16px;
+}
+
+.headerLinkL {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 120px;
+  padding: 16px 20px;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+}
+
+.headerLinkR {
+  box-sizing: border-box;
+  border: 1px solid #403930;
+  padding: 16px 10px;
+  width: 120px;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+}
+
+.right {
+  display: none;
+}
+
+.grad {
+  min-width: 300px;
+  padding: 60px 24px;
+}
+
+.about {
+  font-size: 18px;
+  letter-spacing: -0.36px;
+}
+
+.me {
+  font-size: 14px;
+  letter-spacing: -0.28px;
+}
+
+.rocket {
+  left: 250px;
+  top: -30px;
+
+  width: 40px;
+  height: 40px;
+}
+
+.stackDiv {
+  padding: 60px 24px 0px 24px;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.stackWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.stack {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 108.333% */
+  letter-spacing: -0.48px;
+}
+
+.stackAbout {
+  align-self: stretch;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  text-align: start;
+  margin-bottom: 32px;
+}
+
+.imgDiv {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.imgT {
+  gap: 5px;
+}
+
+.st {
+  width: 80px;
+  height: 80px;
+}
+
+.projectDiv {
+  padding: 60px 24px;
+  align-items: center;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+
+.projectTitle {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 108.333% */
+  letter-spacing: -0.48px;
+}
+
+.project {
+  padding: 24px 16px;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  min-width: 300px;
+  height: 450px;
+}
+
+.projectTextWrap {
+  min-width: 200px;
+  gap: 0px;
+}
+
+.projectTextWrap span {
+}
+
+.projectTextWrap p {
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  word-break: keep-all;
+}
+
+.projectImg {
+}
+
+.projectImg img {
+  width: 300px;
+  height: 200px;
+}
