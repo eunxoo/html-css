@@ -30,16 +30,15 @@
 
   <body>
     <nav>
-      <!-- pure HTML/CSS/JS -->
-      <div class="navItem">Home</div>
-
-      <!-- 리액트/뷰같은 프레임워크 스타일 -->
-      <div class="navItem">Project</div>
-      <div class="navItem">Recommend</div>
-      <div class="navItem">Home</div>
+      <div class="navItem" onclick="scrollToSection('home')">Home</div>
+      <div class="navItem" onclick="scrollToSection('project')">Project</div>
+      <div class="navItem" onclick="scrollToSection('recommend')">
+        Recommend
+      </div>
+      <div class="navItem" onclick="scrollToSection('contact')">Contact</div>
     </nav>
     <div>
-      <header>
+      <header id="home">
         <div class="left">
           <div class="badge">👋 안녕하세요!</div>
           <h1>
@@ -125,7 +124,7 @@
       Me
       <a href="mailto:dmstn7989@gmail.com">💌</a>
     </div>
-    <div class="projectDiv">
+    <div class="projectDiv" id="project">
       <span class="projectTitle">내 프로젝트</span>
       <div class="project">
         <div class="projectTextWrap">
@@ -211,7 +210,7 @@
         </div>
       </div>
     </div>
-    <div class="peerDiv">
+    <div class="peerDiv" id="recommend">
       <span class="peerTitle">함께 개발한 동료들의 평가 </span>
       <div class="peerReviewDiv">
         <div class="peerReview">
@@ -246,7 +245,7 @@
         개발자가 되겠습니다. 감사합니다! 😊
       </div>
     </div>
-    <footer>
+    <footer id="contact">
       <div class="contactDiv">
         <a href="https://www.instagram.com/eunxo.o?igsh=cDdjcXF6anRiYjBv">
           <img src="insta.svg" alt="인스타" />
@@ -267,6 +266,13 @@
             event_category: "이력서_버튼_클릭",
             event_label: "이력서_버튼_클릭",
           });
+        }
+      }
+
+      function scrollToSection(sectionId) {
+        var section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
         }
       }
     </script>
