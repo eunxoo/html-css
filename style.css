@@ -11,6 +11,10 @@ nav {
   height: 100px;
 }
 
+.navItem:hover {
+  font-weight: 700;
+}
+
 header {
   display: flex;
   flex-direction: row;
