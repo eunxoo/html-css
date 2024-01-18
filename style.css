@@ -373,3 +373,124 @@ a {
   line-height: 150%; /* 30px */
   text-decoration-line: underline;
 }
+
+.peerDiv {
+  display: flex;
+  height: 609px;
+  padding: 80px 0px 120px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.peerTitle {
+  color: #403930;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 50px */
+  letter-spacing: -0.8px;
+}
+
+.peerReviewDiv {
+  display: flex;
+  /* align-items: flex-start; */
+  gap: 40px;
+  width: 80%;
+  margin-top: 60px;
+
+  /* width: 90%; */
+  overflow-x: auto;
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+
+.peerReviewDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.peerReview {
+  display: flex;
+  min-width: 460px;
+  height: 264px;
+  padding: 0px 39px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  border-radius: 10px;
+  background: #fafafa;
+  /* box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15); */
+}
+
+.peerRe {
+  color: #403930;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.peer {
+  color: #403930;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 125% */
+}
+
+.aspiration {
+  display: flex;
+  height: 350px;
+  padding: 64px 60px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  background: #e6eeff;
+}
+
+.astitle {
+  color: #403930;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 60px */
+  letter-spacing: -0.96px;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+footer {
+  height: 182px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.contactDiv {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+footer div img {
+  width: 30px;
+  height: 30px;
+}
+
+.copyright {
+  color: var(--Dark, #21243d);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
