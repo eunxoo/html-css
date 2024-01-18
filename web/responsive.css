@@ -19,7 +19,7 @@ nav {
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 18px */
+  line-height: 150%;
 }
 
 header {
@@ -34,14 +34,14 @@ header {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
 }
 
 header h1 {
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 120%; /* 38.4px */
+  line-height: 120%;
   letter-spacing: -0.64px;
 }
 
@@ -57,7 +57,7 @@ header h1 {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 21px */
+  line-height: 150%;
 }
 
 .headerLinkR {
@@ -68,7 +68,7 @@ header h1 {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 21px */
+  line-height: 150%;
 }
 
 .right {
@@ -117,7 +117,7 @@ header h1 {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 26px; /* 108.333% */
+  line-height: 26px;
   letter-spacing: -0.48px;
 }
 
@@ -126,7 +126,7 @@ header h1 {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 21px */
+  line-height: 150%;
   text-align: start;
   margin-bottom: 32px;
 }
@@ -156,7 +156,7 @@ header h1 {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 26px; /* 108.333% */
+  line-height: 26px;
   letter-spacing: -0.48px;
 }
 
@@ -175,9 +175,6 @@ header h1 {
   gap: 0px;
 }
 
-.projectTextWrap span {
-}
-
 .projectTextWrap p {
   overflow: hidden;
   white-space: normal;
@@ -186,9 +183,6 @@ header h1 {
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   word-break: keep-all;
-}
-
-.projectImg {
 }
 
 .projectImg img {
@@ -206,12 +200,11 @@ header h1 {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 26px; /* 108.333% */
+  line-height: 26px;
   letter-spacing: -0.48px;
 }
 
 .peerReviewDiv {
-  /* box-sizing: border-box; */
   padding: 0px 20px;
   flex-direction: column;
   gap: 20px;
@@ -238,7 +231,7 @@ header h1 {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 21px */
+  line-height: 150%;
 
   align-self: stretch;
 }
@@ -249,7 +242,7 @@ header h1 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px; /* 208.333% */
+  line-height: 25px;
 
   align-self: stretch;
 }

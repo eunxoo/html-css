@@ -49,7 +49,7 @@ header h1 {
   font-weight: 600;
   line-height: 125%;
   letter-spacing: -1.28px;
-  margin: 0; /* user agent stylesheet 조정 */
+  margin: 0;
 }
 
 .header-text {
@@ -124,7 +124,7 @@ header h1 p {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 36px */
+  line-height: 150%;
   text-decoration: none;
 }
 
@@ -142,7 +142,7 @@ header h1 p {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 36px */
+  line-height: 150%;
   text-decoration: none;
 }
 
@@ -202,7 +202,7 @@ img {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; /* 30px */
+  line-height: 150%;
   margin-top: 20px;
 }
 
@@ -263,7 +263,7 @@ a {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 26px; /* 65% */
+  line-height: 26px;
   letter-spacing: -0.8px;
   margin-bottom: 24px;
 }
@@ -274,7 +274,7 @@ a {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 130% */
+  line-height: 26px;
   margin-bottom: 80px;
 }
 
@@ -306,7 +306,6 @@ a {
   flex-direction: column;
   padding: 80px 120px 120px 120px;
   justify-content: center;
-  /* align-items: center; */
 
   background: rgba(244, 244, 244, 0.5);
 }
@@ -322,7 +321,7 @@ a {
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
-  line-height: 125%; /* 50px */
+  line-height: 125%;
   letter-spacing: -0.8px;
 }
 
@@ -354,7 +353,7 @@ a {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 36px */
+  line-height: 150%;
 }
 
 .projectTextWrap p {
@@ -362,7 +361,7 @@ a {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
 }
 
 .projectImg {
@@ -374,7 +373,7 @@ a {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 30px */
+  line-height: 150%;
   text-decoration-line: underline;
 }
 
@@ -392,18 +391,16 @@ a {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 125%; /* 50px */
+  line-height: 125%;
   letter-spacing: -0.8px;
 }
 
 .peerReviewDiv {
   display: flex;
-  /* align-items: flex-start; */
   gap: 40px;
   width: 80%;
   margin-top: 60px;
 
-  /* width: 90%; */
   overflow-x: auto;
   -ms-overflow-style: none; /* 인터넷 익스플로러 */
   scrollbar-width: none; /* 파이어폭스 */
@@ -425,7 +422,6 @@ a {
 
   border-radius: 10px;
   background: #fafafa;
-  /* box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15); */
 }
 
 .peerRe {
@@ -442,7 +438,7 @@ a {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 25px; /* 125% */
+  line-height: 25px;
 }
 
 .aspiration {
@@ -462,7 +458,7 @@ a {
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 60px */
+  line-height: 150%;
   letter-spacing: -0.96px;
   word-break: keep-all;
   word-wrap: break-word;
