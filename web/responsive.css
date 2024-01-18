@@ -259,6 +259,7 @@ header h1 {
   font-weight: 600;
   line-height: 125%; /* 30px */
   letter-spacing: -0.48px;
+  min-width: 300px;
 }
 
 footer {
