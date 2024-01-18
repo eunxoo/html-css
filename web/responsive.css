@@ -51,7 +51,6 @@ header h1 {
 
 .headerLinkL {
   box-sizing: border-box;
-  border: 1px solid black;
   width: 120px;
   padding: 16px 10px;
 
@@ -63,7 +62,6 @@ header h1 {
 
 .headerLinkR {
   box-sizing: border-box;
-  border: 1px solid #403930;
   padding: 16px 10px;
   width: 120px;
 
