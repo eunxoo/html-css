@@ -165,7 +165,7 @@ img {
   display: flex;
   flex-direction: column;
   height: 350px;
-  min-width: 700px;
+  min-width: 460px;
   padding: 100px 120px;
   justify-content: center;
   align-items: flex-start;
@@ -466,6 +466,7 @@ a {
   letter-spacing: -0.96px;
   word-break: keep-all;
   word-wrap: break-word;
+  min-width: 460px;
 }
 
 footer {
